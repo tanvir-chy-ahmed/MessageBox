@@ -1,6 +1,7 @@
 [versions]
 agp = "8.11.1"
 foundation = "1.8.3"
+foundationVersion = "1.9.3"
 kotlin = "2.0.21"
 coreKtx = "1.16.0"
 junit = "4.13.2"
@@ -13,6 +14,7 @@ material3Pullrefresh = "1.2.0"
 navigationCompose = "2.9.5"
 
 [libraries]
+androidx-compose-foundation-v193 = { module = "androidx.compose.foundation:foundation", version.ref = "foundationVersion" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "foundation" }
 androidx-material3-pullrefresh = { module = "androidx.compose.material3:material3-pullrefresh", version.ref = "material3Pullrefresh" }

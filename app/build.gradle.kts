@@ -58,7 +58,11 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
 
-    //noinspection GradleDependency
+    //Navigation
     implementation (libs.androidx.navigation.compose)
+
+    //For Overscroll
+    implementation(libs.androidx.compose.foundation.v193)
+
 
 }
